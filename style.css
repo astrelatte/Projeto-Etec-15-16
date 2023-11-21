@@ -1,0 +1,69 @@
+* { cursor: default;}
+
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family:'Times New Roman', Times, serif;
+    /* Mudar depois isso aqui Mont */
+}
+
+/* Para que o main nao fique em baixo da sidebar */
+
+#main {
+    margin-left: 120px;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+    /* Não entendi esse */
+}
+
+ul {
+    list-style: none;
+}
+
+.card-custom {
+    height: 635px;
+}
+
+hr {
+    width: 200px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.input-box input:hover {
+    background-color: #e1e1e2;
+}
+
+figcaption {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-cursor{
+    cursor: pointer;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+
+
+
+  @media only screen and (max-width:600px) {
+    #main {
+        margin-left: 0;
+    }
+  }
